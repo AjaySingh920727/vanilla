@@ -46,13 +46,13 @@ public class AmazonStepLibrariy{
     
 	//Step - 7 - Click on the second highest priced item
     public void selectSecondHighestPricedItem() {
-    	actions.explicitWaitForSeconds(3);
+    	actions.explicitWaitForSeconds(5);
     	actions.clickElement(actions.getElement(AmazonPageObjects.secondHighestPricedItemSelector));
     }
     
 	//Step - 8 - Switch the Window
     public void switchTheWindow() {
-    	actions.explicitWaitForSeconds(3);
+    	actions.explicitWaitForSeconds(4);
     	actions.switchToWindow();
     }
     
